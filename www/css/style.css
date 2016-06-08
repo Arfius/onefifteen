@@ -1,0 +1,71 @@
+/* Empty. Add your own CSS if you like */
+.of-app
+{
+  background-color:white;
+}
+.of-drag
+{
+  position: absolute;
+  /*border: solid black thick;*/
+  text-align: center;
+  background-color: white;
+  z-index: 10;
+}
+
+
+.of-drag-release
+{
+  position: absolute;
+  /* border: solid black thick;*/
+  text-align: center;
+  background-color:#11c1f3;
+  z-index: 10;
+  font-size: 2em;
+  align-content:center;
+  color: paleturquoise;
+  font-weight: bold;
+}
+
+.of-cell
+{
+  background-color: #4b8bf4;
+  border: solid black 1px;
+  text-align: center;
+}
+
+.of-row
+{
+  float:left
+}
+
+
+.initialsBaloon
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px !important;
+  background: #03a9f4;
+  font-size:15px;
+  text-align: center;
+  padding-top: 5px;
+  color:white;
+  float: left;
+}
+
+.transparentbackground
+{
+  background: transparent;
+
+}
+.boxNameMessage
+{
+  margin-left: 40px;
+  margin-top:5px;
+}
+
+.item.item-trns {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 5px;
+}
